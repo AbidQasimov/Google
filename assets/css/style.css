@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+
+
+body{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-basis: 10%;
+}
+.header a{
+    color: #000;
+    padding: 7px;
+}
+.header button{
+    background: #1a73e8;
+    padding:  9px 23px;
+    border:transparent;
+    color: #fff;
+    border-radius: 4px;
+    margin:  0 7px;
+}
+.menu-icon {
+width: 24px;
+}
+.input svg {
+    width: 20px;
+}
+.section{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    gap: 20px;
+
+}
+.section form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input {
+    height: 34px;
+    border: 1px solid #ddd;
+    min-width: 437px;
+    border-radius: 25px;
+    position: relative;
+
+}
+
+input {
+    width: 100%;
+    height: 95%;
+    outline: none;
+    border-radius: 25px;
+    border: none;
+
+}
+
+.input :hover{
+    box-shadow: 2px 2px 2px rgba(0,0,0,.2);
+}
+.s-icon{
+    position: absolute;
+    top: 22%;
+    left: 2%;
+    opacity: .4;
+}
+.button-groups{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    justify-content: center;
+    box-shadow: none;
+}
+.button-groups button{
+    background: #f8f9fa;
+    border: none;
+    padding: 7px 12px;
+}
+span {
+    display: block;
+    text-align: center;  
+    padding: 20px;
+}
+.footer {
+    flex-basis: 20%;
+    background: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+h4 {
+    border-bottom: 1px solid #ddd;
+    color:#70757a;
+    padding: 1px 10px 0 10px;
+    font: 15px ;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+
+}
+.links a{
+    color:#70757a;
+    padding: 7px;
+}
